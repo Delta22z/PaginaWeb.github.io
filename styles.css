@@ -1,0 +1,111 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #dedddd; /* Color de fondo */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #aa4fd7; /* Color de fondo del encabezado */
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    background-color: #53a1e0; /* Color de fondo de la barra de navegación */
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333; /* Color del texto del enlace */
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+article {
+    flex: 2;
+    background-color: #ffe6cc; /* Color de fondo del área principal */
+    padding: 20px;
+}
+
+aside {
+    flex: 1;
+    background-color: #ffebcc; /* Color de fondo del área lateral */
+    padding: 20px;
+}
+
+footer {
+    background-color: #ffcccc; /* Color de fondo del pie de página */
+    text-align: center;
+    padding: 10px;
+    
+    bottom: 0;
+    width: 100%;
+}
+
+/* Estilos para pantallas grandes */
+@media only screen and (min-width: 768px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header, nav, main, footer {
+        width: 80%;
+        max-width: 1200px;
+    }
+
+    main {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    article {
+        flex-basis: 60%;
+    }
+
+    aside {
+        flex-basis: 30%;
+    }
+}
+
+/* Estilos para pantallas pequeñas */
+@media only screen and (max-width: 767px) {
+    nav ul li {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+    }
+
+    article, aside {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
