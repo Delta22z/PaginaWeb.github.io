@@ -8,6 +8,14 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <script src="manifest.json" id="manifest-data" type="application/json"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var manifestData = document.getElementById('manifest-data').textContent;
+            var manifestObject = JSON.parse(manifestData);
+            console.log(manifestObject);
+        });
+    </script>
     <script>
         if ('serviceWorker' in navigator) {
           window.addEventListener('load', function() {
