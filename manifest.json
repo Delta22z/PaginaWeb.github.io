@@ -1,16 +1,30 @@
 {
-    "name": "Mi Aplicación Web",
-    "short_name": "MiApp",
-    "icons": [
-      {
-        "src": "img/control.png",
-        "sizes": "192x192",
-        "type": "image/png"
-      }
-    ],
-    "start_url": "index.html",
-    "display": "standalone",
-    "theme_color": "#ffffff",
-    "background_color": "#ffffff"
-  }
-  
+  "name": "Mi Aplicación Web",
+  "short_name": "MiApp",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#3367D6",
+  "icons": [
+    {
+      "src": "icons/icon-72x72.png",
+      "sizes": "72x72",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/icon-96x96.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/icon-144x144.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ]
+}
