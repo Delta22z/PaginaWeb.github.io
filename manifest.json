@@ -9,8 +9,8 @@
     "description": "Ejemplo del manifiesto para la tienda de videojuegos",
     "icons": [
         {
-            "src": "icons/icon-72x72.svg",
-            "sizes": "72x72",
+            "src": "icons/icon-96x96.svg",
+            "sizes": "96x96",
             "type": "image/svg"
         },
         {
