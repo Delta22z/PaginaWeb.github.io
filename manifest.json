@@ -9,9 +9,9 @@
     "description": "Ejemplo del manifiesto para la tienda de videojuegos",
     "icons": [
         {
-            "src": "https://delta22z.github.io/PaginaWeb.github.io/public/icons/icon-72x72.png",
+            "src": "icons/icon-72x72.svg",
             "sizes": "72x72",
-            "type": "image/png"
+            "type": "image/svg"
         },
         {
             "src": "https://delta22z.github.io/PaginaWeb.github.io/public/icons/icon-96x96.png",
