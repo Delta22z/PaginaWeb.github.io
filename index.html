@@ -6,10 +6,7 @@
     <title>Tienda de Videojuegos</title>
     <link rel="shortcut icon" href="img/control.png" />
     <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <link rel="manifest" href="manifest.json">
-    </script>
+    <link rel="manifest" href="public/manifest.json"> <!-- Mueve esta línea aquí -->
     <script>
         if ('serviceWorker' in navigator) {
           window.addEventListener('load', function() {
@@ -22,7 +19,9 @@
               });
           });
         }
-      </script>
+    </script> <!-- Mueve este script aquí -->
+</head>
+<body>
     <header>
         <h1>Tienda de Videojuegos</h1>
     </header>
